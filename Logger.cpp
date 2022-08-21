@@ -1,5 +1,6 @@
 #include "Logger.h"
 
+using namespace myserver::utility;
 namespace myserver {
 namespace utility {
 

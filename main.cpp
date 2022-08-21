@@ -3,9 +3,11 @@
 #include "utility/Logger.h"
 #include "utility/System.h"
 #include "utility/IniFile.h"
+#include "socket/Socket.h"
 
 using namespace std;
 using namespace myserver::utility;
+using namespace myserver::socket;
 
 class A{
 public:
@@ -27,6 +29,7 @@ int main(){
     Singleton<Logger>::New();
     Singleton<IniFile>::New();
     Singleton<System>::New();
+    Singleton<Socket>::New();
 
     Singleton<System>::Get()->init();
 
