@@ -1,9 +1,9 @@
 #include <iostream>
-#include"utility/Singleton.h"
-#include "utility/Logger.h"
-#include "utility/System.h"
-#include "utility/IniFile.h"
-#include "socket/Socket.h"
+#include"Singleton.h"
+#include "Logger.h"
+#include "System.h"
+#include "IniFile.h"
+#include "Socket.h"
 
 using namespace std;
 using namespace myserver::utility;
